@@ -1,0 +1,17 @@
+{
+  "name": "refer-earn-landing-accredian",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd frontend && pnpm run dev",
+    "backend": "cd backend && pnpm run dev",
+    "dev": "concurrently \"pnpm run backend\" \"pnpm run frontend\""
+  },
+  "keywords": [],
+  "author": "MrGeniusProgrammer <mrgeniusprogrammer69@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
