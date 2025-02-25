@@ -1,10 +1,11 @@
 import logoSvg from "@/assets/logo.svg";
+import { ChevronDown } from "lucide-react";
 import { Button } from "./ui/button";
 
 export function NavBar() {
 	return (
 		<>
-			<div className="w-full px-[280px] py-2.5">
+			<div className="w-full px-8 py-2.5 xl:px-[280px]">
 				<div className="flex min-h-[60px] max-w-[1360px] items-center justify-between py-2.5">
 					<div className="flex items-center gap-8">
 						<a href="https://home.accredian.com/">
@@ -14,7 +15,10 @@ export function NavBar() {
 								alt="Accredian logo"
 							/>
 						</a>
-						<Button>Contact</Button>
+						<Button>
+							Contact
+							<ChevronDown />
+						</Button>
 					</div>
 					<div className="flex items-center gap-8">
 						<span className="text-sm font-medium tracking-normal">
